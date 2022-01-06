@@ -60,3 +60,21 @@ Rust Language Learning material
     cargo fmt
     cargo clippy
     cargo vendor
+
+
+### Rust Modules 
+- Tokio : Asynchronous run-time for Rust
+- Hyper : fast, safe HTTP implementation written in and for Rust
+- Tower : Library for modular and reusable components for building robust networking clients & servers.
+
+
+
+## websites
+        rustup.rs
+        
+
+## Installation 
+
+### 1. Linux
+
+        curl -sf
