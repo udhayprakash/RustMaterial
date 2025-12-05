@@ -1,0 +1,21 @@
+{
+  "name": "RustMaterial Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "serayuzgur.crates",
+        "vadimcn.vscode-lldb"
+      ]
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "rust-analyzer.checkOnSave.command": "clippy"
+  },
+  "postCreateCommand": "cd 00_Demo && cargo build",
+  "remoteUser": "vscode"
+}
